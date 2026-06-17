@@ -1,0 +1,16 @@
+# Odoo Database Backup Configuration
+# Copy this file to config.conf and fill in your values
+
+[project_name]
+SSH_USER=odoo
+SSH_HOST=192.168.1.100
+SSH_PORT=22
+SSH_AUTH_METHOD=password
+SSH_KEY_PATH=
+DOCKER_DB=odoo_db_1
+DB_NAME=production
+LOCAL_PATH=/home/user/backups
+
+# SSH_AUTH_METHOD options:
+# - password: Requires sshpass to be installed
+# - key: Uses SSH key authentication (no sshpass needed)
