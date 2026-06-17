@@ -13,7 +13,7 @@ YELLOW='\033[1;33m'
 CYAN='\033[0;36m'
 NC='\033[0m'
 
-REPO_URL="https://github.com/user/odoo_backup.git"
+REPO_URL="https://github.com/Pani-k-folk/odoo-backup.git"
 INSTALL_DIR="$HOME/.local/share/odoo-backup"
 BIN_DIR="$HOME/.local/bin"
 BIN_NAME="odoo-backup"

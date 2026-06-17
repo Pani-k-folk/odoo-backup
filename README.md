@@ -16,13 +16,13 @@
 ### วิธีที่ 1: One-liner (แนะนำ)
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/user/odoo_backup/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/Pani-k-folk/odoo-backup/main/install.sh | bash
 ```
 
 ### วิธีที่ 2: Manual Installation
 
 ```bash
-git clone https://github.com/user/odoo_backup.git
+git clone https://github.com/Pani-k-folk/odoo-backup.git
 cd odoo_backup
 ./install.sh
 ```
@@ -30,7 +30,7 @@ cd odoo_backup
 ### วิธีที่ 3: Clone และใช้งานโดยตรง
 
 ```bash
-git clone https://github.com/user/odoo_backup.git
+git clone https://github.com/Pani-k-folk/odoo-backup.git
 cd odoo_backup
 ./backup_db.sh --add
 ```
@@ -250,4 +250,4 @@ Welcome contributions! Please feel free to submit a Pull Request.
 
 ## Support
 
-หากพบปัญหาหรือมีคำถาม กรุณาเปิด issue ที่ [GitHub Issues](https://github.com/user/odoo_backup/issues)
+หากพบปัญหาหรือมีคำถาม กรุณาเปิด issue ที่ [GitHub Issues](https://github.com/Pani-k-folk/odoo-backup/issues)
